@@ -12,13 +12,17 @@ public class Task_5 {
 
         if (rangeEnd <= rangeStart) {
             System.out.println("You have entered incorrect parameters");
-        } else if (rangeEnd - 1 == rangeStart) {
+        } 
+        else if (rangeEnd - 1 == rangeStart) {
             System.out.println("There are no even numbers between " + rangeStart + " and " + rangeEnd);
-        } else if (rangeEnd - 2 == rangeStart && rangeStart % 2 == 0) {
+        } 
+        else if (rangeEnd - 2 == rangeStart && rangeStart % 2 == 0) {
             System.out.println("There are no even numbers between " + rangeStart + " and " + rangeEnd);
-        } else if (rangeEnd - 3 != rangeStart && (rangeEnd - 2 != rangeStart || rangeStart % 2 == 0) && (rangeEnd - 4 != rangeStart || rangeStart % 2 != 0)) {
+        } 
+        else if (rangeEnd - 3 != rangeStart && (rangeEnd - 2 != rangeStart || rangeStart % 2 == 0) && (rangeEnd - 4 != rangeStart || rangeStart % 2 != 0)) {
             System.out.print("Even numbers between " + rangeStart + " and " + rangeEnd + " are: ");
-        } else {
+        } 
+        else {
             System.out.print("The only even number between " + rangeStart + " and " + rangeEnd + " is ");
         }
 
